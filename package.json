@@ -1,0 +1,17 @@
+{
+  "name": "epsilon-agent",
+  "version": "1.0.0",
+  "description": "Epsilon - OpenClaw Agent with Web Interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "install-agent": "npm install -g openclaw"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "keywords": ["openclaw", "agent", "ai"],
+  "author": "NullBit9",
+  "license": "MIT"
+}
