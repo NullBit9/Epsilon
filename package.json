@@ -5,11 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install-agent": "npm install -g openclaw"
+    "postinstall": "echo 'OpenClaw installed locally - no global install needed!'"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "ws": "^8.14.2"
+    "ws": "^8.14.2",
+    "openclaw": "latest"
   },
   "keywords": ["openclaw", "agent", "ai"],
   "author": "NullBit9",

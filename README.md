@@ -5,10 +5,7 @@ OpenClaw agent with a simple web interface.
 ## Quick Start
 
 ```bash
-# Install OpenClaw globally
-npm install -g openclaw
-
-# Install dependencies
+# Install all dependencies (OpenClaw is included - no global install needed!)
 npm install
 
 # Start the server
@@ -35,7 +32,8 @@ Then open http://localhost:3000 in your browser.
 ## Requirements
 
 - Node.js 18+
-- OpenClaw installed globally (`npm install -g openclaw`)
+
+That's it! OpenClaw is installed automatically with `npm install` - no global setup needed.
 
 ## Customization
 
